@@ -15,5 +15,3 @@ app.get("/", (req, res) => {
   });
   
 app.listen(5000, () => console.log("The server is all fired up on port 8000"));
-
-module.exports = app;
